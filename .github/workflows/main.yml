@@ -75,5 +75,5 @@ jobs:
 
       - name: Deploy files
         run: |
-          helm show chart oci://registry-1.docker.io/fabricioph2/oc-charts --version 10
-          helm upgrade --install oc-frontend oci://registry-1.docker.io/fabricioph2/oc-charts --version 10 --values values.yaml
+          helm show chart oci://registry-1.docker.io/fabricioph2/oc-charts --version 14
+          helm upgrade --install oc-frontend oci://registry-1.docker.io/fabricioph2/oc-charts --version 14 --values values.yaml
